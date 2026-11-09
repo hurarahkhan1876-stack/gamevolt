@@ -6,6 +6,16 @@
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
-    "run_worker_first": ["/api/*"]
-  }
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "gamevolt-db",
+      "database_id": "83a99358-2df3-4d3f-8953-7db78c4b991f",
+      "migrations_dir": "migrations"
+    }
+  ]
 }
